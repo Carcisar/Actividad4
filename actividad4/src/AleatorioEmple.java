@@ -64,6 +64,7 @@ public class AleatorioEmple {
 		}
 		
 		System.out.println("Segundo Cambio");
+		System.out.println("Cambio nueva Rama");
 		file.close();
 	}// fin crear
 
