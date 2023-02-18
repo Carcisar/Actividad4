@@ -40,7 +40,8 @@ public class AleatorioEmple {
 			file.close(); 
 			System.out.println(" ------------------------------------------");
 		} else 
-			System.out.println(" ---------FICHERO VACÍO --------------------");
+			System.out.println(" ---------FICHERO VACï¿½O --------------------");
+		System.out.println("Primer Cambio");
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
@@ -61,6 +62,8 @@ public class AleatorioEmple {
 			file.writeInt(dep[i]);
 			file.writeDouble(salario[i]);
 		}
+		
+	
 		file.close();
 	}// fin crear
 
